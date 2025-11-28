@@ -16,10 +16,11 @@ export function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "History", href: "#background" },
-    { name: "Journey", href: "#challenge" },
-    { name: "Product", href: "#product" },
-    { name: "Strategy", href: "#strategy" },
+    { name: "Origin", href: "#origin" },
+    { name: "Journey", href: "#journey" },
+    { name: "Platform", href: "#platform" },
+    { name: "Analysis", href: "#swot" },
+    { name: "Roadmap", href: "#roadmap" },
   ];
 
   return (
