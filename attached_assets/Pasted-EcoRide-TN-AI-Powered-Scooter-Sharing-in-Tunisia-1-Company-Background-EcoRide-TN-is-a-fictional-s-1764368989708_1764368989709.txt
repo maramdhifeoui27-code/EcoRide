@@ -1,0 +1,129 @@
+EcoRide-TN: AI-Powered Scooter Sharing in Tunisia
+1. Company Background
+
+EcoRide-TN is a fictional startup created by a group of students in Tunisia. The company’s mission is to provide efficient, eco-friendly mobility for students, youth, and tourists in Tunis. Inspired by the success of scooter-sharing services in Europe and the capabilities of artificial intelligence (AI), EcoRide-TN envisions smart scooter placement, predicting where scooters will be most needed each day based on weather, local events, foot traffic, and tourist activity.
+
+As a student project, EcoRide-TN allows learners to explore how AI can optimize urban transportation, even in a market where scooter-sharing does not yet exist.
+
+2. Strategic Challenge / Management Question
+
+The central strategic question facing EcoRide-TN is:
+
+“How can we use AI to place scooters smartly in a market where this product does not exist yet?”
+
+Key challenges include:
+
+Lack of awareness among potential users about scooter-sharing.
+
+Urban regulations and infrastructure constraints in Tunis.
+
+Operational challenges such as maintenance, recharging, and theft prevention.
+
+Demand uncertainty, since no historical data exists in Tunisia for scooter-sharing.
+
+The case requires students to think strategically about market entry, technology adoption, and operational planning in a novel environment.
+
+3. Environmental Analysis
+PESTEL Analysis
+
+Political: Tunisia is generally supportive of green mobility, but regulations for scooter use and urban road safety must be considered.
+
+Economic: Affordable mobility solutions are in demand among students and young professionals.
+
+Social: Increasing awareness of eco-friendly transportation; acceptance depends on safety and convenience.
+
+Technological: AI and data analytics are feasible tools to optimize scooter placement and monitor operations.
+
+Environmental: Promotes sustainable urban transport, reduces congestion and pollution.
+
+Legal: Compliance with traffic laws, licensing, and safety regulations is mandatory.
+
+SWOT Analysis
+
+Strengths: Innovative use of AI, eco-friendly mobility, student-driven project with learning value.
+
+Weaknesses: Lack of historical demand data, limited resources for pilot deployment.
+
+Opportunities: Growing urban population, potential partnerships with universities and tourist areas.
+
+Threats: Resistance to adoption, potential vandalism or theft, regulatory changes.
+
+4. Strategy Formulation
+
+EcoRide-TN’s strategy focuses on AI-driven optimization to maximize scooter utilization:
+
+Goals:
+
+Introduce the first AI-powered scooter-sharing service in Tunisia.
+
+Optimize placement daily to meet demand efficiently.
+
+Promote sustainable, eco-friendly urban mobility.
+
+AI Implementation Scenarios:
+
+Weekdays: High demand near universities and business districts.
+
+Weekends: Tourist zones and recreational areas.
+
+Rainy days: Lower demand; focus on sheltered or indoor locations.
+
+The AI uses multiple inputs (weather, events, foot traffic) to predict daily demand and suggest optimal scooter distribution.
+
+5. Implementation
+
+Pilot Deployment Plan in Tunis:
+
+Data Collection: Gather location, foot traffic, and event data.
+
+AI Model Setup: Train the model on simulated data for student analysis.
+
+Daily Placement Simulation: Use AI outputs to place scooters in predicted high-demand zones (Lac 2, Centre Ville, Ennasr, Manar University, Sidi Bou Saïd).
+
+Maintenance and Recharging: Plan routine maintenance based on predicted usage.
+
+Monitoring & Feedback: Track AI accuracy using simulated utilization metrics.
+
+Example: A map heatmap showing zones of predicted high demand can illustrate the concept.
+
+6. Evaluation & Performance Metrics
+
+Key Performance Indicators (KPIs):
+
+Scooter utilization rate (rides per scooter per day).
+
+AI prediction accuracy (correlation between predicted and actual demand).
+
+Customer satisfaction (simulated survey or feedback).
+
+Operational efficiency (maintenance and repositioning costs).
+
+Adjustment Strategies:
+
+Modify AI placement algorithm based on pilot results.
+
+Focus on zones with lower utilization to improve adoption.
+
+7. Teaching Notes
+
+Discussion Questions:
+
+What challenges exist when introducing an innovative mobility service in a new market?
+
+How can AI improve operational efficiency for urban transportation?
+
+What environmental, social, and regulatory factors must be considered in Tunisia?
+
+How would you evaluate the success of the AI placement strategy?
+
+Suggested Answers / Guidance:
+
+Encourage students to consider market adoption barriers, urban infrastructure, and cultural factors.
+
+Discuss how AI can optimize resources, predict demand, and support decision-making.
+
+Analyze KPIs critically, and explore how student simulations can illustrate AI effectiveness.
+
+8. Conclusion
+
+EcoRide-TN is a student-designed case study demonstrating how AI can enable smarter, greener urban transportation. By integrating AI into operational decision-making, students can explore the challenges and opportunities of launching innovative services in new markets.
