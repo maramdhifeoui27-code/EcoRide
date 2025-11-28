@@ -178,12 +178,16 @@ export default function Home() {
                 />
                 <div className="absolute bottom-6 left-6 z-20">
                   <div className="flex items-center gap-2 mb-2">
-                    <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse" />
-                    <span className="text-xs font-bold uppercase tracking-wider text-red-400">High Demand Zone</span>
+                    <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
+                    <span className="text-xs font-bold uppercase tracking-wider text-green-400">High Demand Zone</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 mb-2">
                     <div className="w-3 h-3 rounded-full bg-yellow-400" />
                     <span className="text-xs font-bold uppercase tracking-wider text-yellow-400">Medium Demand Zone</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 rounded-full bg-red-500" />
+                    <span className="text-xs font-bold uppercase tracking-wider text-red-400">Low Demand Zone</span>
                   </div>
                 </div>
                 <div className="absolute bottom-6 right-6 z-20 text-right">
