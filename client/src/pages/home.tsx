@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import heroImage from "@assets/generated_images/cyberpunk_electric_scooter_dark_mode.png";
 
+import demandMapImage from "@assets/kepler.gl_1764373314758.png";
+
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
@@ -162,6 +164,36 @@ export default function Home() {
                   <p className="text-gray-300">Become Tunisia’s leading smart mobility platform, transforming urban transport while reducing congestion and carbon emissions.</p>
                 </div>
               </div>
+            </div>
+
+            {/* Demand Map Visualization */}
+            <div className="mt-16">
+              <h3 className="text-xl font-heading font-bold text-white mb-6 text-center">AI Demand Prediction Map</h3>
+              <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-2xl group">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10" />
+                <img 
+                  src={demandMapImage} 
+                  alt="Tunis Demand Heatmap" 
+                  className="w-full h-auto object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-500"
+                />
+                <div className="absolute bottom-6 left-6 z-20">
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse" />
+                    <span className="text-xs font-bold uppercase tracking-wider text-red-400">High Demand Zone</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 rounded-full bg-yellow-400" />
+                    <span className="text-xs font-bold uppercase tracking-wider text-yellow-400">Medium Demand Zone</span>
+                  </div>
+                </div>
+                <div className="absolute bottom-6 right-6 z-20 text-right">
+                  <p className="text-xs text-gray-400 uppercase tracking-wider">Real-time Analysis</p>
+                  <p className="text-white font-bold font-heading text-lg">Tunis Metro Area</p>
+                </div>
+              </div>
+              <p className="text-center text-sm text-gray-500 mt-4 italic">
+                Figure 1.1: AI-generated heatmap showing predicted scooter demand density across key Tunis districts based on historical usage and event data.
+              </p>
             </div>
           </div>
         </section>
