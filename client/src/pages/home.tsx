@@ -8,7 +8,7 @@ const fadeIn = {
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export default function Home() {
@@ -40,9 +40,21 @@ export default function Home() {
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-b from-white to-white/50 relative z-20">
                 EcoRide-TN<br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-400 glow-text">
-                  AI-Powered Scooter Sharing in Tunisia
+                  Tunisia’s First AI Scooter Sharing
                 </span>
               </h1>
+              
+              <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-light tracking-wide uppercase">
+                Fast. Green. Smart. AI-driven mobility in Tunis.
+              </p>
+
+              <div className="flex items-center justify-center gap-8 pt-8 text-sm tracking-widest text-gray-500 uppercase">
+                <div>Launched: 2025</div>
+                <div>•</div>
+                <div>Region: Tunisia</div>
+                <div>•</div>
+                <div>Founded: 2025</div>
+              </div>
             </motion.div>
           </div>
 
@@ -57,230 +69,269 @@ export default function Home() {
           </motion.div>
         </section>
 
-        {/* 1. Company Background */}
-        <section id="background" className="py-20 relative border-t border-white/5">
-          <div className="container mx-auto px-4">
-            <motion.div {...fadeIn} className="grid md:grid-cols-1 gap-8 items-start max-w-4xl mx-auto">
-              <div>
-                <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-4">1. Company Background</h2>
-                <div className="space-y-6 text-gray-400 leading-relaxed text-lg">
-                  <p>
-                    EcoRide-TN is a fictional startup created by a group of students in Tunisia. The company’s mission is to provide efficient, eco-friendly mobility for students, youth, and tourists in Tunis. Inspired by the success of scooter-sharing services in Europe and the capabilities of artificial intelligence (AI), EcoRide-TN envisions smart scooter placement, predicting where scooters will be most needed each day based on weather, local events, foot traffic, and tourist activity.
-                  </p>
-                  <p>
-                    As a student project, EcoRide-TN allows learners to explore how AI can optimize urban transportation, even in a market where scooter-sharing does not yet exist.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </section>
-
-        {/* 2. Strategic Challenge */}
-        <section id="challenge" className="py-20 bg-white/5 relative overflow-hidden">
-          {/* Decorative Grid */}
-          <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:40px_40px]" />
-
-          <div className="container mx-auto px-4 relative z-10 max-w-4xl">
-            <div className="mb-12">
-              <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-4">2. Strategic Challenge / Management Question</h2>
-              <p className="text-lg text-white font-bold mb-4">
-                The central strategic question facing EcoRide-TN is:
-              </p>
-              <h3 className="text-2xl md:text-3xl font-heading font-bold mb-8 text-white border-l-4 border-primary pl-6 italic">
-                “How can we use AI to place scooters smartly in a market where this product does not exist yet?”
-              </h3>
-              
-              <p className="text-lg text-white font-bold mb-4">Key challenges include:</p>
-              <ul className="list-disc list-inside space-y-2 text-gray-400 text-lg pl-4">
-                <li>Lack of awareness among potential users about scooter-sharing.</li>
-                <li>Urban regulations and infrastructure constraints in Tunis.</li>
-                <li>Operational challenges such as maintenance, recharging, and theft prevention.</li>
-                <li>Demand uncertainty, since no historical data exists in Tunisia for scooter-sharing.</li>
-              </ul>
-              <p className="mt-6 text-gray-400 text-lg">
-                The case requires students to think strategically about market entry, technology adoption, and operational planning in a novel environment.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* 3. Environmental Analysis */}
-        <section id="analysis" className="py-20 border-t border-white/5">
-          <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-4">3. Environmental Analysis</h2>
+        {/* Origin Story */}
+        <section id="origin" className="py-24 border-t border-white/5 relative">
+           <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-8">Origin Story</h2>
             
-            <div className="grid md:grid-cols-2 gap-12">
-              {/* PESTEL */}
-              <div className="space-y-6">
-                <h4 className="text-2xl font-heading font-bold text-white border-b border-white/10 pb-4">PESTEL Analysis</h4>
-                <div className="space-y-4 text-gray-400">
-                  <p><strong className="text-primary">Political:</strong> Tunisia is generally supportive of green mobility, but regulations for scooter use and urban road safety must be considered.</p>
-                  <p><strong className="text-primary">Economic:</strong> Affordable mobility solutions are in demand among students and young professionals.</p>
-                  <p><strong className="text-primary">Social:</strong> Increasing awareness of eco-friendly transportation; acceptance depends on safety and convenience.</p>
-                  <p><strong className="text-primary">Technological:</strong> AI and data analytics are feasible tools to optimize scooter placement and monitor operations.</p>
-                  <p><strong className="text-primary">Environmental:</strong> Promotes sustainable urban transport, reduces congestion and pollution.</p>
-                  <p><strong className="text-primary">Legal:</strong> Compliance with traffic laws, licensing, and safety regulations is mandatory.</p>
-                </div>
-              </div>
-
-              {/* SWOT */}
-              <div className="space-y-6">
-                <h4 className="text-2xl font-heading font-bold text-white border-b border-white/10 pb-4">SWOT Analysis</h4>
-                <div className="space-y-4 text-gray-400">
-                  <p><strong className="text-emerald-500">Strengths:</strong> Innovative use of AI, eco-friendly mobility, student-driven project with learning value.</p>
-                  <p><strong className="text-red-500">Weaknesses:</strong> Lack of historical demand data, limited resources for pilot deployment.</p>
-                  <p><strong className="text-blue-500">Opportunities:</strong> Growing urban population, potential partnerships with universities and tourist areas.</p>
-                  <p><strong className="text-amber-500">Threats:</strong> Resistance to adoption, potential vandalism or theft, regulatory changes.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4. Strategy Formulation */}
-        <section id="strategy" className="py-20 bg-gradient-to-b from-black to-emerald-950/10 relative">
-          <div className="container mx-auto px-4 max-w-4xl relative z-10">
-            <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-4">4. Strategy Formulation</h2>
-            <p className="text-lg text-gray-400 mb-8">
-              EcoRide-TN’s strategy focuses on AI-driven optimization to maximize scooter utilization:
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-black/50 border border-white/10 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-white mb-4">Goals:</h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-400">
-                  <li>Introduce the first AI-powered scooter-sharing service in Tunisia.</li>
-                  <li>Optimize placement daily to meet demand efficiently.</li>
-                  <li>Promote sustainable, eco-friendly urban mobility.</li>
-                </ul>
-              </div>
-              
-              <div className="bg-black/50 border border-white/10 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-white mb-4">AI Implementation Scenarios:</h3>
-                <ul className="space-y-2 text-gray-400">
-                  <li><strong className="text-primary">Weekdays:</strong> High demand near universities and business districts.</li>
-                  <li><strong className="text-primary">Weekends:</strong> Tourist zones and recreational areas.</li>
-                  <li><strong className="text-primary">Rainy days:</strong> Lower demand; focus on sheltered or indoor locations.</li>
-                </ul>
-                <p className="mt-4 text-sm text-gray-500 italic">
-                  The AI uses multiple inputs (weather, events, foot traffic) to predict daily demand and suggest optimal scooter distribution.
+            <div className="space-y-16">
+              <motion.div {...fadeIn} className="relative pl-8 border-l border-primary/30">
+                <h3 className="text-3xl font-heading font-bold text-white mb-4">The Genesis</h3>
+                <p className="text-lg text-gray-400 leading-relaxed">
+                  EcoRide-TN was conceived by three Tunisian university students — a software engineer, a business student, and a data analyst — who noticed rising urban congestion in Tunis and a lack of eco-friendly mobility options. Inspired by AI technology, they envisioned scooters that know where they are needed most.
                 </p>
+              </motion.div>
+
+              <motion.div {...fadeIn} className="relative pl-8 border-l border-primary/30">
+                <h3 className="text-3xl font-heading font-bold text-white mb-4">The Beginning</h3>
+                <p className="text-lg text-gray-400 leading-relaxed">
+                  In the heart of Tunis, the team realized there were no local scooter-sharing services. International models existed but were unsuitable for Tunisian streets, local regulations, and user habits. The solution: build a data-driven, AI-powered scooter-sharing service, tailored for the city.
+                </p>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
+        {/* The Journey */}
+        <section id="journey" className="py-24 bg-white/5">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-12 text-center">The Journey</h2>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              {[
+                {
+                  title: "Early Obstacles",
+                  desc: "Introducing a completely new product meant the market didn’t exist yet. Regulators had limited experience with scooter-sharing. Users were skeptical, and operational logistics (charging, parking, maintenance) were untested."
+                },
+                {
+                  title: "The Pilot",
+                  desc: "The team deployed a small fleet of scooters in Lac 2, Centre Ville, Ennasr, Manar University, and Sidi Bou Saïd, using AI to predict daily demand. GPS-enabled scooters sent real-time data to refine placement algorithms, while user feedback was collected via a simple mobile app."
+                },
+                {
+                  title: "Scaling Smartly",
+                  desc: "With AI-powered analytics, scooters were repositioned daily. Partnerships with universities and local businesses helped increase adoption. Social campaigns highlighted eco-friendliness, convenience, and smart urban mobility."
+                }
+              ].map((card, i) => (
+                <motion.div 
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: i * 0.2 }}
+                  className="bg-black/50 border border-white/10 p-8 hover:border-primary/50 transition-colors group"
+                >
+                  <div className="text-4xl font-heading font-bold text-white/10 group-hover:text-primary/20 mb-6 transition-colors">0{i+1}</div>
+                  <h3 className="text-xl font-bold text-white mb-4 group-hover:text-primary transition-colors">{card.title}</h3>
+                  <p className="text-gray-400 leading-relaxed">{card.desc}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* The Platform */}
+        <section id="platform" className="py-24 border-t border-white/5">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-8">The Platform</h2>
+            
+            <div className="grid md:grid-cols-2 gap-12 mb-16">
+              <div>
+                <h3 className="text-2xl font-heading font-bold text-white mb-6">Product Description</h3>
+                <p className="text-gray-400 mb-6">EcoRide-TN is an AI-driven scooter-sharing platform for Tunis:</p>
+                <ul className="space-y-4">
+                  {[
+                    { title: "AI Placement", desc: "Predicts high-demand zones daily using weather, events, foot traffic, and university schedules." },
+                    { title: "Mobile App", desc: "Users locate and unlock scooters via smartphone." },
+                    { title: "Eco-Friendly Mobility", desc: "Zero-emission electric scooters." },
+                    { title: "Secure & Efficient", desc: "GPS tracking, battery monitoring, maintenance alerts." }
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                      <p className="text-gray-400"><strong className="text-white">{item.title}:</strong> {item.desc}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              
+              <div className="space-y-8">
+                <div className="bg-white/5 p-8 rounded border border-white/10">
+                  <h3 className="text-xl font-bold text-primary mb-2">Mission</h3>
+                  <p className="text-gray-300">Provide fast, eco-friendly, AI-optimized mobility for students, tourists, and young professionals in Tunis.</p>
+                </div>
+                <div className="bg-white/5 p-8 rounded border border-white/10">
+                  <h3 className="text-xl font-bold text-primary mb-2">Vision</h3>
+                  <p className="text-gray-300">Become Tunisia’s leading smart mobility platform, transforming urban transport while reducing congestion and carbon emissions.</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 5. Implementation */}
-        <section id="implementation" className="py-20 border-t border-white/5">
+        {/* Target Market */}
+        <section id="market" className="py-24 bg-gradient-to-b from-black to-emerald-950/20">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-4">5. Implementation</h2>
-            <h3 className="text-2xl font-heading font-bold text-white mb-6">Pilot Deployment Plan in Tunis:</h3>
+             <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-12 text-center">Target Market</h2>
+             
+             <div className="grid md:grid-cols-3 gap-8 text-center">
+               <div className="space-y-4">
+                 <h3 className="text-lg font-bold text-white border-b border-white/10 pb-2">Primary Audience</h3>
+                 <ul className="text-gray-400 space-y-2">
+                   <li>University students</li>
+                   <li>Young professionals</li>
+                   <li>Tourists & casual riders</li>
+                 </ul>
+               </div>
+               
+               <div className="space-y-4">
+                 <h3 className="text-lg font-bold text-white border-b border-white/10 pb-2">Market Segments</h3>
+                 <ul className="text-gray-400 space-y-2">
+                   <li>Daily commuters</li>
+                   <li>Short-trip leisure riders</li>
+                   <li>Value-oriented users</li>
+                 </ul>
+               </div>
+               
+               <div className="space-y-4">
+                 <h3 className="text-lg font-bold text-white border-b border-white/10 pb-2">Unique Value</h3>
+                 <ul className="text-gray-400 space-y-2">
+                   <li>First AI-powered scooter-sharing</li>
+                   <li>Data-driven placement</li>
+                   <li>Eco-friendly & fast</li>
+                 </ul>
+               </div>
+             </div>
+          </div>
+        </section>
+
+        {/* Roadmap */}
+        <section id="roadmap" className="py-24 border-t border-white/5">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-12">Strategy & Execution Roadmap</h2>
             
-            <div className="space-y-6 border-l-2 border-primary/20 pl-6 ml-2">
-              <div>
-                <h4 className="text-lg font-bold text-primary">Data Collection:</h4>
-                <p className="text-gray-400">Gather location, foot traffic, and event data.</p>
-              </div>
-              <div>
-                <h4 className="text-lg font-bold text-primary">AI Model Setup:</h4>
-                <p className="text-gray-400">Train the model on simulated data for student analysis.</p>
-              </div>
-              <div>
-                <h4 className="text-lg font-bold text-primary">Daily Placement Simulation:</h4>
-                <p className="text-gray-400">Use AI outputs to place scooters in predicted high-demand zones (Lac 2, Centre Ville, Ennasr, Manar University, Sidi Bou Saïd).</p>
-              </div>
-              <div>
-                <h4 className="text-lg font-bold text-primary">Maintenance and Recharging:</h4>
-                <p className="text-gray-400">Plan routine maintenance based on predicted usage.</p>
-              </div>
-              <div>
-                <h4 className="text-lg font-bold text-primary">Monitoring & Feedback:</h4>
-                <p className="text-gray-400">Track AI accuracy using simulated utilization metrics.</p>
-              </div>
-            </div>
-            
-            <div className="mt-8 p-4 bg-primary/10 border border-primary/20 rounded text-primary">
-              <strong>Example:</strong> A map heatmap showing zones of predicted high demand can illustrate the concept.
+            <div className="space-y-8 relative before:absolute before:left-4 before:top-0 before:bottom-0 before:w-px before:bg-white/10 md:before:left-1/2">
+              {[
+                {
+                  step: "Step 1",
+                  time: "Months 1–3",
+                  title: "Concept Validation",
+                  items: ["Develop small fleet and AI prototype", "Test scooter placement predictions in key zones", "Collect initial usage data"]
+                },
+                {
+                  step: "Step 2",
+                  time: "Months 4–6",
+                  title: "Pilot Launch",
+                  items: ["Deploy fleet in high-demand zones", "Refine AI placement and routing", "Collect user feedback and usage metrics"]
+                },
+                {
+                  step: "Step 3",
+                  time: "Months 7–12",
+                  title: "Full Launch",
+                  items: ["Expand fleet size and zone coverage", "Launch marketing campaigns targeting students, tourists", "Track KPIs: utilization, rides per scooter, AI accuracy"]
+                },
+                {
+                  step: "Step 4",
+                  time: "Months 13–24",
+                  title: "Growth & Optimization",
+                  items: ["Expand city-wide or to other Tunisian cities", "Introduce loyalty programs, seasonal promotions", "Continuous AI improvement and operational efficiency"]
+                }
+              ].map((phase, i) => (
+                <div key={i} className={`relative flex flex-col md:flex-row gap-8 ${i % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
+                  <div className="md:w-1/2" />
+                  <div className="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-black border-2 border-primary z-10 mt-6" />
+                  <div className="md:w-1/2 pl-12 md:pl-0 md:px-8">
+                    <div className="bg-white/5 border border-white/10 p-6 hover:border-primary/50 transition-colors rounded-lg relative group">
+                      <div className="absolute top-4 right-4 text-xs font-bold text-primary/50 uppercase tracking-wider group-hover:text-primary">{phase.step}</div>
+                      <div className="text-sm text-accent mb-2">{phase.time}</div>
+                      <h3 className="text-xl font-bold text-white mb-4">{phase.title}</h3>
+                      <ul className="space-y-2">
+                        {phase.items.map((item, j) => (
+                          <li key={j} className="text-gray-400 text-sm flex gap-2">
+                            <span className="text-primary">•</span> {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* 6. Evaluation */}
-        <section id="evaluation" className="py-20 bg-white/5">
+        {/* Challenges & Solutions */}
+        <section id="challenges" className="py-24 bg-white/5">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-4">6. Evaluation & Performance Metrics</h2>
+            <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-12 text-center">Obstacles & Solutions</h2>
             
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid gap-6">
+              {[
+                { title: "Regulatory Challenge", desc: "Scooter-sharing was new; the team worked with Tunis city officials to define safe parking zones, speed limits, and operational permits." },
+                { title: "Operational Challenge", desc: "Fleet maintenance, battery charging, and scooter redistribution required logistics optimization — solved with predictive AI scheduling." },
+                { title: "Adoption Challenge", desc: "Users were unfamiliar; partnerships with universities and social campaigns built trust." }
+              ].map((item, i) => (
+                <div key={i} className="flex flex-col md:flex-row gap-6 items-start p-6 border-b border-white/10 last:border-0">
+                  <h3 className="text-xl font-bold text-white md:w-1/3">{item.title}</h3>
+                  <p className="text-gray-400 md:w-2/3 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Ethics & Lessons */}
+        <section id="ethics" className="py-24 border-t border-white/5">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <div className="grid md:grid-cols-2 gap-16">
               <div>
-                <h3 className="text-xl font-bold text-white mb-4">Key Performance Indicators (KPIs):</h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-400">
-                  <li>Scooter utilization rate (rides per scooter per day).</li>
-                  <li>AI prediction accuracy (correlation between predicted and actual demand).</li>
-                  <li>Customer satisfaction (simulated survey or feedback).</li>
-                  <li>Operational efficiency (maintenance and repositioning costs).</li>
+                <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-6">Ethical & Safety Measures</h2>
+                <ul className="space-y-4">
+                  {["Speed limits and geo-fencing in high-traffic areas", "Mobile alerts for safe riding", "Education campaigns for new users"].map((item, i) => (
+                    <li key={i} className="flex items-center gap-3 p-4 bg-white/5 border border-white/5 rounded">
+                      <div className="w-2 h-2 bg-green-500 rounded-full" />
+                      <span className="text-gray-300">{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
               
               <div>
-                <h3 className="text-xl font-bold text-white mb-4">Adjustment Strategies:</h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-400">
-                  <li>Modify AI placement algorithm based on pilot results.</li>
-                  <li>Focus on zones with lower utilization to improve adoption.</li>
+                <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-6">Lessons Learned</h2>
+                <ul className="space-y-4">
+                  {["AI improves operational efficiency and utilization", "Proactive regulatory engagement builds trust", "Ethical design ensures adoption and sustainability", "Continuous data collection and AI refinement are critical"].map((item, i) => (
+                    <li key={i} className="flex items-center gap-3 p-4 bg-white/5 border border-white/5 rounded">
+                      <div className="w-2 h-2 bg-primary rounded-full" />
+                      <span className="text-gray-300">{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
+            </div>
+
+            <div className="mt-24 text-center">
+              <blockquote className="text-2xl md:text-4xl font-heading font-bold text-white leading-tight max-w-3xl mx-auto">
+                "We didn’t just deploy scooters. We designed a smarter, greener city experience."
+              </blockquote>
             </div>
           </div>
         </section>
 
-        {/* 7. Teaching Notes */}
-        <section id="teaching" className="py-20 border-t border-white/5">
-          <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-4">7. Teaching Notes</h2>
-            
-            <div className="grid gap-8">
-              <div>
-                <h3 className="text-xl font-bold text-white mb-4">Discussion Questions:</h3>
-                <ul className="space-y-4 text-gray-400">
-                  <li className="flex gap-3">
-                    <span className="text-primary font-bold">Q:</span>
-                    What challenges exist when introducing an innovative mobility service in a new market?
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-primary font-bold">Q:</span>
-                    How can AI improve operational efficiency for urban transportation?
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-primary font-bold">Q:</span>
-                    What environmental, social, and regulatory factors must be considered in Tunisia?
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-primary font-bold">Q:</span>
-                    How would you evaluate the success of the AI placement strategy?
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="bg-white/5 p-6 rounded-lg border border-white/10">
-                <h3 className="text-xl font-bold text-white mb-4">Suggested Answers / Guidance:</h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-400">
-                  <li>Encourage students to consider market adoption barriers, urban infrastructure, and cultural factors.</li>
-                  <li>Discuss how AI can optimize resources, predict demand, and support decision-making.</li>
-                  <li>Analyze KPIs critically, and explore how student simulations can illustrate AI effectiveness.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 8. Conclusion */}
-        <section id="conclusion" className="py-20 bg-gradient-to-t from-primary/10 to-black border-t border-white/5">
-          <div className="container mx-auto px-4 max-w-4xl text-center">
-            <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-4">8. Conclusion</h2>
-            <p className="text-xl md:text-2xl text-white leading-relaxed">
-              EcoRide-TN is a student-designed case study demonstrating how AI can enable smarter, greener urban transportation. By integrating AI into operational decision-making, students can explore the challenges and opportunities of launching innovative services in new markets.
-            </p>
-          </div>
+        {/* Timeline Footer */}
+        <section id="timeline" className="py-20 bg-gradient-to-t from-primary/10 to-black border-t border-white/5">
+           <div className="container mx-auto px-4 text-center">
+             <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-8">Project Timeline</h2>
+             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto border-t border-white/10 pt-8">
+               {[
+                 { k: "Founded", v: "2025" },
+                 { k: "Pilot Launch", v: "2025" },
+                 { k: "Region", v: "Tunis (Expanding 2026)" },
+                 { k: "Coverage", v: "Lac 2, Centre Ville, Ennasr..." }
+               ].map((item, i) => (
+                 <div key={i}>
+                   <div className="text-gray-500 text-xs uppercase tracking-wider mb-2">{item.k}</div>
+                   <div className="text-white font-bold">{item.v}</div>
+                 </div>
+               ))}
+             </div>
+           </div>
         </section>
 
       </main>

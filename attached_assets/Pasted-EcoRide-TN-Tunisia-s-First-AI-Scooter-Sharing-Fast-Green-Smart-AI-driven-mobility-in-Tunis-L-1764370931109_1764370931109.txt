@@ -1,0 +1,143 @@
+EcoRide-TN — Tunisia’s First AI Scooter Sharing
+
+Fast. Green. Smart. AI-driven mobility in Tunis.
+
+Launched: 2025
+Region: Tunisia
+Founded: 2025
+Origin Story:
+
+The Genesis
+
+EcoRide-TN was conceived by three Tunisian university students — a software engineer, a business student, and a data analyst — who noticed rising urban congestion in Tunis and a lack of eco-friendly mobility options. Inspired by AI technology, they envisioned scooters that know where they are needed most.
+
+The Beginning
+In the heart of Tunis, the team realized there were no local scooter-sharing services. International models existed but were unsuitable for Tunisian streets, local regulations, and user habits. The solution: build a data-driven, AI-powered scooter-sharing service, tailored for the city.
+
+The Journey
+
+Early Obstacles
+Introducing a completely new product meant the market didn’t exist yet. Regulators had limited experience with scooter-sharing. Users were skeptical, and operational logistics (charging, parking, maintenance) were untested.
+
+The Pilot
+The team deployed a small fleet of scooters in Lac 2, Centre Ville, Ennasr, Manar University, and Sidi Bou Saïd, using AI to predict daily demand. GPS-enabled scooters sent real-time data to refine placement algorithms, while user feedback was collected via a simple mobile app.
+
+Scaling Smartly
+With AI-powered analytics, scooters were repositioned daily. Partnerships with universities and local businesses helped increase adoption. Social campaigns highlighted eco-friendliness, convenience, and smart urban mobility.
+
+The Platform
+
+Product Description
+EcoRide-TN is an AI-driven scooter-sharing platform for Tunis:
+
+AI Placement: Predicts high-demand zones daily using weather, events, foot traffic, and university schedules.
+
+Mobile App: Users locate and unlock scooters via smartphone.
+
+Eco-Friendly Mobility: Zero-emission electric scooters.
+
+Secure & Efficient: GPS tracking, battery monitoring, maintenance alerts.
+
+Mission
+Provide fast, eco-friendly, AI-optimized mobility for students, tourists, and young professionals in Tunis.
+
+Vision
+Become Tunisia’s leading smart mobility platform, transforming urban transport while reducing congestion and carbon emissions.
+
+Target Market
+
+Primary Audience
+
+University students
+
+Young professionals
+
+Tourists & casual riders
+
+Market Segments
+
+Daily commuters
+
+Short-trip leisure riders
+
+Value-oriented users seeking convenience and low cost
+
+Unique Value Proposition
+
+First AI-powered scooter-sharing in Tunisia
+
+Data-driven placement ensures availability where needed
+
+Eco-friendly, fast, and convenient urban mobility
+
+Strategy & Execution Roadmap
+
+Step 1 — Concept Validation (Months 1–3)
+
+Develop small fleet and AI prototype
+
+Test scooter placement predictions in key zones
+
+Collect initial usage data
+
+Step 2 — Pilot Launch (Months 4–6)
+
+Deploy fleet in high-demand zones
+
+Refine AI placement and routing
+
+Collect user feedback and usage metrics
+
+Step 3 — Full Launch (Months 7–12)
+
+Expand fleet size and zone coverage
+
+Launch marketing campaigns targeting students, tourists
+
+Track KPIs: utilization, rides per scooter, AI accuracy
+
+Step 4 — Growth & Optimization (Months 13–24)
+
+Expand city-wide or to other Tunisian cities
+
+Introduce loyalty programs, seasonal promotions
+
+Continuous AI improvement and operational efficiency
+
+Obstacles & Solutions
+
+Regulatory Challenge
+Scooter-sharing was new; the team worked with Tunis city officials to define safe parking zones, speed limits, and operational permits.
+
+Operational Challenge
+Fleet maintenance, battery charging, and scooter redistribution required logistics optimization — solved with predictive AI scheduling.
+
+Adoption Challenge
+Users were unfamiliar; partnerships with universities and social campaigns built trust.
+
+Ethical & Safety Measures
+
+Speed limits and geo-fencing in high-traffic areas
+
+Mobile alerts for safe riding
+
+Education campaigns for new users
+
+Lessons Learned
+
+AI improves operational efficiency and utilization
+
+Proactive regulatory engagement builds trust and avoids roadblocks
+
+Ethical design ensures adoption and long-term sustainability
+
+Continuous data collection and AI refinement are critical
+
+"We didn’t just deploy scooters. We designed a smarter, greener city experience."
+
+Timeline
+
+Founded: 2025
+Pilot Launch: 2025
+Region: Tunis (expanding in 2026)
+Coverage: Lac 2, Centre Ville, Ennasr, Manar University, Sidi Bou Saïd
