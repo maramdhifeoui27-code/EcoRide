@@ -5,12 +5,15 @@ export function Footer() {
     <footer className="bg-black border-t border-white/10 py-12">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
         
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary flex items-center justify-center text-black">
-            <Zap className="w-5 h-5 fill-current" />
+          <div className="flex flex-col">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 bg-primary flex items-center justify-center text-black">
+                <Zap className="w-5 h-5 fill-current" />
+              </div>
+              <span className="font-heading font-bold text-xl tracking-widest text-white">ECO<span className="text-primary">RIDE</span></span>
+            </div>
+            <a href="https://EcoRide.tn" className="text-xs text-primary mt-1 hover:underline tracking-wider opacity-80">https://EcoRide.tn</a>
           </div>
-          <span className="font-heading font-bold text-xl tracking-widest text-white">ECO<span className="text-primary">RIDE</span></span>
-        </div>
 
         <div className="text-gray-500 text-xs uppercase tracking-[0.2em]">
           © 2025 Student Project Case Study
