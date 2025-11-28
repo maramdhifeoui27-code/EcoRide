@@ -34,81 +34,51 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   
-  --font-sans: "DM Sans", system-ui, sans-serif;
-  --font-heading: "Outfit", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-heading: "Rajdhani", system-ui, sans-serif;
 }
 
 :root {
-  /* Clean, Modern, Eco-Tech Palette */
+  /* Premium Dark Gaming/Tech Palette */
   
-  /* Background: Very light gray/white for freshness */
-  --background: 210 20% 98%;
-  --foreground: 222 47% 11%;
+  /* Background: Rich Black */
+  --background: 240 10% 4%;
+  --foreground: 0 0% 100%;
 
-  /* Card: Pure white */
-  --card: 0 0% 100%;
-  --card-foreground: 222 47% 11%;
+  /* Card: Dark Glass */
+  --card: 240 10% 6%;
+  --card-foreground: 0 0% 100%;
 
   /* Popover */
-  --popover: 0 0% 100%;
-  --popover-foreground: 222 47% 11%;
+  --popover: 240 10% 6%;
+  --popover-foreground: 0 0% 100%;
 
-  /* Primary: Tunisian Teal/Green - Vibrant and Eco */
-  --primary: 165 75% 35%;
-  --primary-foreground: 0 0% 100%;
+  /* Primary: Cyber Green / Emerald */
+  --primary: 150 100% 40%;
+  --primary-foreground: 0 0% 0%;
 
-  /* Secondary: Tech Blue - For AI/Data vibes */
-  --secondary: 215 90% 92%;
-  --secondary-foreground: 215 60% 25%;
+  /* Secondary: Darker Emerald/Teal */
+  --secondary: 160 80% 10%;
+  --secondary-foreground: 150 100% 50%;
 
-  /* Muted: Soft grays */
-  --muted: 210 40% 96%;
-  --muted-foreground: 215 16% 47%;
+  /* Muted: Metal Gray */
+  --muted: 240 5% 15%;
+  --muted-foreground: 240 5% 65%;
 
-  /* Accent: Sunny Yellow for energy/callouts */
-  --accent: 45 95% 55%;
-  --accent-foreground: 30 40% 15%;
+  /* Accent: Gold (from reference) */
+  --accent: 45 90% 55%;
+  --accent-foreground: 0 0% 0%;
 
   /* Destructive */
-  --destructive: 0 84% 60%;
-  --destructive-foreground: 210 40% 98%;
+  --destructive: 0 80% 50%;
+  --destructive-foreground: 0 0% 100%;
 
   /* Borders */
-  --border: 214 32% 91%;
-  --input: 214 32% 91%;
-  --ring: 165 75% 35%;
+  --border: 240 5% 15%;
+  --input: 240 5% 15%;
+  --ring: 150 100% 40%;
 
-  --radius: 0.75rem;
-}
-
-.dark {
-  --background: 222 47% 11%;
-  --foreground: 210 40% 98%;
-
-  --card: 222 47% 14%;
-  --card-foreground: 210 40% 98%;
-
-  --popover: 222 47% 14%;
-  --popover-foreground: 210 40% 98%;
-
-  --primary: 165 75% 45%;
-  --primary-foreground: 222 47% 11%;
-
-  --secondary: 217 33% 17%;
-  --secondary-foreground: 210 40% 98%;
-
-  --muted: 217 33% 17%;
-  --muted-foreground: 215 20% 65%;
-
-  --accent: 45 95% 55%;
-  --accent-foreground: 222 47% 11%;
-
-  --destructive: 0 62% 30%;
-  --destructive-foreground: 210 40% 98%;
-
-  --border: 217 33% 17%;
-  --input: 217 33% 17%;
-  --ring: 165 75% 45%;
+  --radius: 0.25rem; /* Sharper corners for tech feel */
 }
 
 @layer base {
@@ -116,9 +86,25 @@
     @apply border-border;
   }
   body {
-    @apply font-sans antialiased bg-background text-foreground;
+    @apply font-sans antialiased bg-black text-white selection:bg-primary selection:text-black;
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading tracking-tight;
+    @apply font-heading uppercase tracking-wider;
   }
+}
+
+.glass-card {
+  @apply bg-black/40 backdrop-blur-xl border border-white/10 shadow-2xl;
+}
+
+.text-gradient-gold {
+  @apply bg-gradient-to-r from-[#F2DEA2] to-[#D98D30] bg-clip-text text-transparent;
+}
+
+.text-gradient-primary {
+  @apply bg-gradient-to-r from-primary via-green-400 to-emerald-500 bg-clip-text text-transparent;
+}
+
+.neon-glow {
+  box-shadow: 0 0 20px rgba(0, 255, 148, 0.3);
 }
