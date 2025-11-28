@@ -1,0 +1,134 @@
+SWOT Analysis
+
+STRENGTHS
+
+First AI-driven scooter-sharing service in Tunisia
+
+Strong demand from students and young professionals
+
+Eco-friendly and low-cost mobility option
+
+Real-time data → optimized scooter placement
+
+Easy-to-use mobile app with GPS tracking
+
+WEAKNESSES
+
+High upfront cost for scooters and batteries
+
+New product → users need education
+
+Limited charging infrastructure
+
+AI accuracy depends on continuous data
+
+OPPORTUNITIES
+
+Expand to Sousse, Monastir, Sfax
+
+Partnerships with universities, malls, coworking spaces
+
+Tourism sector → high seasonal demand
+
+Government interest in green mobility projects
+
+THREATS
+
+Vandalism, theft, and poor parking habits
+
+Potential new competitors (Bolt, Lime)
+
+Changes in municipal regulations
+
+Economic instability affecting consumer spending
+
+PESTEL Analysis
+
+POLITICAL
+
+Government initiatives promoting green mobility
+
+Municipality involvement needed for parking rules
+
+Potential restrictions on micro-mobility in crowded zones
+
+ECONOMIC
+
+Affordable pricing attracts students
+
+Inflation and scooter import costs can increase expenses
+
+Rising fuel prices push people toward electric mobility
+
+SOCIAL
+
+Young population open to new tech
+
+Urban lifestyle → demand for fast transportation
+
+Need for safety education (helmets, riding zones)
+
+TECHNOLOGICAL
+
+AI placement algorithms improve efficiency
+
+Sensors, GPS, IoT for real-time monitoring
+
+Mobile payments and digital wallets increase accessibility
+
+ENVIRONMENTAL
+
+Zero emissions support national sustainability goals
+
+Battery recycling and energy sourcing must be managed
+
+Reduces traffic congestion and noise pollution
+
+LEGAL
+
+Need permits for public-space usage
+
+Insurance, liability, and rider age restrictions
+
+Compliance with data privacy and GPS tracking laws
+
+Key Performance Indicators (KPIs)
+Operational KPIs
+
+Scooter Utilization Rate (avg. rides per scooter per day)
+
+AI Prediction Accuracy (% of scooters placed in high-demand zones)
+
+Maintenance Downtime (hours per scooter/month)
+
+Battery Efficiency (avg. hours per full charge)
+
+User & Growth KPIs
+
+Daily Active Riders (DAR)
+
+Monthly Active Users (MAU)
+
+User Retention Rate (30 days)
+
+Ride Completion Rate
+
+Financial KPIs
+
+Revenue per Scooter
+
+Cost per Ride
+
+Gross Margin per Fleet
+
+Customer Acquisition Cost (CAC)
+
+Customer Lifetime Value (LTV)
+
+Environmental KPIs
+
+CO₂ Emissions Saved per Month
+
+Number of Short Car Trips Replaced
+
+Energy Consumption per Scooter

@@ -166,39 +166,165 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Target Market */}
-        <section id="market" className="py-24 bg-gradient-to-b from-black to-emerald-950/20">
-          <div className="container mx-auto px-4 max-w-4xl">
-             <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-12 text-center">Target Market</h2>
-             
-             <div className="grid md:grid-cols-3 gap-8 text-center">
-               <div className="space-y-4">
-                 <h3 className="text-lg font-bold text-white border-b border-white/10 pb-2">Primary Audience</h3>
-                 <ul className="text-gray-400 space-y-2">
-                   <li>University students</li>
-                   <li>Young professionals</li>
-                   <li>Tourists & casual riders</li>
+        {/* SWOT Analysis */}
+        <section id="swot" className="py-24 bg-white/5">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-12 text-center">SWOT Analysis</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Strengths */}
+              <motion.div {...fadeIn} className="bg-black/50 border border-emerald-500/20 p-8 rounded-lg relative overflow-hidden">
+                 <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/10 blur-2xl rounded-full pointer-events-none" />
+                 <h3 className="text-xl font-heading font-bold text-emerald-500 mb-6 flex items-center gap-2">
+                   <span className="w-2 h-2 bg-emerald-500 rounded-full" /> STRENGTHS
+                 </h3>
+                 <ul className="space-y-3 text-gray-400">
+                   {[
+                     "First AI-driven scooter-sharing service in Tunisia",
+                     "Strong demand from students and young professionals",
+                     "Eco-friendly and low-cost mobility option",
+                     "Real-time data → optimized scooter placement",
+                     "Easy-to-use mobile app with GPS tracking"
+                   ].map((item, i) => (
+                     <li key={i} className="flex items-start gap-2">
+                       <span className="text-emerald-500 mt-1">✓</span> {item}
+                     </li>
+                   ))}
                  </ul>
-               </div>
-               
-               <div className="space-y-4">
-                 <h3 className="text-lg font-bold text-white border-b border-white/10 pb-2">Market Segments</h3>
-                 <ul className="text-gray-400 space-y-2">
-                   <li>Daily commuters</li>
-                   <li>Short-trip leisure riders</li>
-                   <li>Value-oriented users</li>
+              </motion.div>
+
+              {/* Weaknesses */}
+              <motion.div {...fadeIn} className="bg-black/50 border border-red-500/20 p-8 rounded-lg relative overflow-hidden">
+                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-500/10 blur-2xl rounded-full pointer-events-none" />
+                 <h3 className="text-xl font-heading font-bold text-red-500 mb-6 flex items-center gap-2">
+                   <span className="w-2 h-2 bg-red-500 rounded-full" /> WEAKNESSES
+                 </h3>
+                 <ul className="space-y-3 text-gray-400">
+                   {[
+                     "High upfront cost for scooters and batteries",
+                     "New product → users need education",
+                     "Limited charging infrastructure",
+                     "AI accuracy depends on continuous data"
+                   ].map((item, i) => (
+                     <li key={i} className="flex items-start gap-2">
+                       <span className="text-red-500 mt-1">•</span> {item}
+                     </li>
+                   ))}
                  </ul>
-               </div>
-               
-               <div className="space-y-4">
-                 <h3 className="text-lg font-bold text-white border-b border-white/10 pb-2">Unique Value</h3>
-                 <ul className="text-gray-400 space-y-2">
-                   <li>First AI-powered scooter-sharing</li>
-                   <li>Data-driven placement</li>
-                   <li>Eco-friendly & fast</li>
+              </motion.div>
+
+              {/* Opportunities */}
+              <motion.div {...fadeIn} className="bg-black/50 border border-blue-500/20 p-8 rounded-lg relative overflow-hidden">
+                 <div className="absolute top-0 right-0 w-24 h-24 bg-blue-500/10 blur-2xl rounded-full pointer-events-none" />
+                 <h3 className="text-xl font-heading font-bold text-blue-500 mb-6 flex items-center gap-2">
+                   <span className="w-2 h-2 bg-blue-500 rounded-full" /> OPPORTUNITIES
+                 </h3>
+                 <ul className="space-y-3 text-gray-400">
+                   {[
+                     "Expand to Sousse, Monastir, Sfax",
+                     "Partnerships with universities, malls, coworking spaces",
+                     "Tourism sector → high seasonal demand",
+                     "Government interest in green mobility projects"
+                   ].map((item, i) => (
+                     <li key={i} className="flex items-start gap-2">
+                       <span className="text-blue-500 mt-1">↗</span> {item}
+                     </li>
+                   ))}
                  </ul>
-               </div>
-             </div>
+              </motion.div>
+
+              {/* Threats */}
+              <motion.div {...fadeIn} className="bg-black/50 border border-amber-500/20 p-8 rounded-lg relative overflow-hidden">
+                 <div className="absolute top-0 right-0 w-24 h-24 bg-amber-500/10 blur-2xl rounded-full pointer-events-none" />
+                 <h3 className="text-xl font-heading font-bold text-amber-500 mb-6 flex items-center gap-2">
+                   <span className="w-2 h-2 bg-amber-500 rounded-full" /> THREATS
+                 </h3>
+                 <ul className="space-y-3 text-gray-400">
+                   {[
+                     "Vandalism, theft, and poor parking habits",
+                     "Potential new competitors (Bolt, Lime)",
+                     "Changes in municipal regulations",
+                     "Economic instability affecting consumer spending"
+                   ].map((item, i) => (
+                     <li key={i} className="flex items-start gap-2">
+                       <span className="text-amber-500 mt-1">!</span> {item}
+                     </li>
+                   ))}
+                 </ul>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
+        {/* PESTEL Analysis */}
+        <section id="pestel" className="py-24 border-t border-white/5">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <h2 className="text-sm font-bold text-accent uppercase tracking-[0.3em] mb-12 text-center">PESTEL Analysis</h2>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                { title: "POLITICAL", items: ["Government initiatives promoting green mobility", "Municipality involvement needed for parking rules", "Potential restrictions on micro-mobility"] },
+                { title: "ECONOMIC", items: ["Affordable pricing attracts students", "Inflation and scooter import costs can increase expenses", "Rising fuel prices push people toward electric mobility"] },
+                { title: "SOCIAL", items: ["Young population open to new tech", "Urban lifestyle → demand for fast transportation", "Need for safety education (helmets, riding zones)"] },
+                { title: "TECHNOLOGICAL", items: ["AI placement algorithms improve efficiency", "Sensors, GPS, IoT for real-time monitoring", "Mobile payments and digital wallets increase accessibility"] },
+                { title: "ENVIRONMENTAL", items: ["Zero emissions support national sustainability goals", "Battery recycling and energy sourcing must be managed", "Reduces traffic congestion and noise pollution"] },
+                { title: "LEGAL", items: ["Need permits for public-space usage", "Insurance, liability, and rider age restrictions", "Compliance with data privacy and GPS tracking laws"] }
+              ].map((card, i) => (
+                <motion.div 
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: i * 0.1 }}
+                  className="bg-white/5 p-6 border border-white/5 hover:border-primary/30 transition-colors rounded"
+                >
+                  <h3 className="text-lg font-heading font-bold text-white mb-4 border-b border-white/10 pb-2">{card.title}</h3>
+                  <ul className="space-y-2 text-sm text-gray-400">
+                    {card.items.map((item, j) => (
+                      <li key={j}>• {item}</li>
+                    ))}
+                  </ul>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* KPIs */}
+        <section id="kpis" className="py-24 bg-white/5">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <h2 className="text-sm font-bold text-primary uppercase tracking-[0.3em] mb-12 text-center">Key Performance Indicators</h2>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {[
+                {
+                  cat: "Operational KPIs",
+                  items: ["Scooter Utilization Rate", "AI Prediction Accuracy", "Maintenance Downtime", "Battery Efficiency"]
+                },
+                {
+                  cat: "User & Growth KPIs",
+                  items: ["Daily Active Riders (DAR)", "Monthly Active Users (MAU)", "User Retention Rate", "Ride Completion Rate"]
+                },
+                {
+                  cat: "Financial KPIs",
+                  items: ["Revenue per Scooter", "Cost per Ride", "Gross Margin per Fleet", "Customer Acquisition Cost"]
+                },
+                {
+                  cat: "Environmental KPIs",
+                  items: ["CO₂ Emissions Saved", "Car Trips Replaced", "Energy Consumption", "Noise Pollution Reduced"]
+                }
+              ].map((group, i) => (
+                <div key={i} className="space-y-4">
+                  <h3 className="text-primary font-bold uppercase text-sm tracking-wider border-b border-primary/20 pb-2">{group.cat}</h3>
+                  <ul className="space-y-3">
+                    {group.items.map((item, j) => (
+                      <li key={j} className="text-gray-300 text-sm bg-black/30 p-3 border border-white/5 rounded">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
